@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+.cyan{
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+h1{
+    font-size: 1.375rem;
+    margin-bottom: 0;
+}
+
+.name{
+    color: white;
+}
+
+h1:hover , .name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 20rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+   
+}
+
+.viewport{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: hsla(178, 100%, 50%,0.7);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.viewport:hover{
+    opacity: 1;
+}
+
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+    color: hsl(215, 32%, 27%);
+}
+
+.profil{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+
+.inline{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    margin: 0.2rem;
+}
